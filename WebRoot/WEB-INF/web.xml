@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchServelet</servlet-name>
+    <servlet-class>com.favourable.servlet.SearchServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowItemOfMarketServelet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowItemOfMarketServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showItemDetailServelet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowItemDetailServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistAdminServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.RegistAdminServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ShowGoodsServlet</servlet-name>
+  <servlet-class>com.favourable.servlet.ShowGoodsServlet</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsAddServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.GoodsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsDelServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.GoodsDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowAreaMarketsServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowAreaMarketsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowUserInfoServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCatagoryItemServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowCatagoryItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindPasswordServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.FindPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.UpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCatagoryFrameServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowCatagoryFrameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMarketWelcomeFrameServlet</servlet-name>
+    <servlet-class>com.favourable.servlet.ShowMarketWelcomeFrameServlet</servlet-class>
+  </servlet>
+ 
+
+
+
+
+
+
+  
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>searchServelet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowItemOfMarketServelet</servlet-name>
+    <url-pattern>/ShowItemOfMarket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showItemDetailServelet</servlet-name>
+    <url-pattern>/showDetailItem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/regist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistAdminServlet</servlet-name>
+    <url-pattern>/registadmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ShowGoodsServlet</servlet-name>
+  <url-pattern>/ShowGoods</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsAddServlet</servlet-name>
+    <url-pattern>/GoodsAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDelServlet</servlet-name>
+    <url-pattern>/GoodsDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAreaMarketsServlet</servlet-name>
+    <url-pattern>/showAreaMarkets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowUserInfoServlet</servlet-name>
+    <url-pattern>/UserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCatagoryItemServlet</servlet-name>
+    <url-pattern>/showCatagoryItem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindPasswordServlet</servlet-name>
+    <url-pattern>/findPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <url-pattern>/updatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCatagoryFrameServlet</servlet-name>
+    <url-pattern>/showCatagoryFrame</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMarketWelcomeFrameServlet</servlet-name>
+    <url-pattern>/showMarketWelcomeFrame</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
