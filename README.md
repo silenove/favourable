@@ -1,2 +1,2 @@
 # favourable
-A web application that provide favourable information about market goods.
+A web application that provide favourable information of market goods.
